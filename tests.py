@@ -11,7 +11,6 @@ def test_it():
 	'''
 
 	s = Stack()
-	assert s.size() == 0
 	s.push(1)
 	assert s.size() == 1
 	
